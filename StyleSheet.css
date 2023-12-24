@@ -1,1 +1,100 @@
+body{    
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: darkgrey;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+nav {
+    padding: 10px;
+    text-align: center;
+    background-color: grey;
+  }
+
+nav ul{
+    float: right;
+    
+}
+nav ul li{
+    margin: 20px;
+}
+
+nav img{
+    height:25px;
+    width:25px;
+}
+
+
+li{
+    display: inline;
+    float: right;
+    padding:1%;
+    font-size: 18pt;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+main{
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+
+main section{
+    width: 25%;
+    box-sizing: border-box;
+    border-radius: 10px;
+       
+}
+main section h1 {
+text-align: center;
+}
+
+.dropButton{
+    border: none;
+    cursor: pointer;
+    background-color: grey;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block; 
+     
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    width: 100px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    background-color: grey;
+    color: white;
+}
+
+.dropdown-content a {
+    padding: 16px;
+    text-decoration: none;
+    text-align: left;
+    display: block;
+    color: black;
+}
+
+ 
+#mainHome{
+    width:48%;
+    box-sizing: border-box;
+}
+
 
